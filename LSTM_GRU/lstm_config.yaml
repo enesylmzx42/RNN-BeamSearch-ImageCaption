@@ -1,0 +1,44 @@
+model:
+  type: rnn
+  img_features_shape: [1536]
+  params:
+    embedding_dim: 256
+    rnn_type: LSTM
+    rnn_layers: 1
+    rnn_units: 512
+    dropout_rate: 0.3
+    pooling: false
+
+train:
+  epochs: 40
+  steps_per_epoch: 150
+  validation_steps: 30
+  verbose: 1
+  adapt_bias: false
+  save_dir: weights/
+
+
+  learning_rate: 0.001
+  lr_schedule_InverseTimeDecay: true
+  decay_rate: 1
+  staircase: false
+  decay_steps_multiple: 20 
+
+
+  early_stopping:
+    allow: true
+    monitor: val_loss
+    patience: 15
+    restore_best_weights: true
+    verbose: 1
+
+  checkpoint: 
+    allow: true
+    save_weights_only: true
+    save_freq_multiple: 25
+    verbose: 1
+
+  generate_text:
+    allow: true
+    image_path: sample/101654506_8eb26cfb60.jpg
+    freq: 9
