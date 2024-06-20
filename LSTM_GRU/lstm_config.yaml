@@ -37,8 +37,3 @@ train:
     save_weights_only: true
     save_freq_multiple: 25
     verbose: 1
-
-  generate_text:
-    allow: true
-    image_path: sample/101654506_8eb26cfb60.jpg
-    freq: 9
