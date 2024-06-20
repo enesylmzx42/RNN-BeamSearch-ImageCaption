@@ -1,3 +1,9 @@
+# Screenshots
+
+![a](https://github.com/enesylmzx42/CNN-LetterRecognition-JS-Flask/assets/117593621/87e1ca58-1f42-4098-972a-e22126a216d6) <br>
+![y](https://github.com/enesylmzx42/CNN-LetterRecognition-JS-Flask/assets/117593621/f76cef6e-78a9-4249-b92c-2d0dc4e38b8a)
+
+
 # Image Captioning
 
 Image captioning is a fascinating process where a machine-learning model crafts textual descriptions or captions for images. It merges computer vision techniques to grasp image content with natural language processing (NLP) techniques for generating coherent and descriptive text.
