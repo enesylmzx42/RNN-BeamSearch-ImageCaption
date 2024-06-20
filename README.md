@@ -21,8 +21,9 @@ This approach involves the model greedily selecting the most probable word at ea
 #### Beam Search with Beam Width Specification
 Beam search is a search algorithm that concurrently explores multiple possible sequences. The beam width parameter determines the number of sequences the model considers at each step. A higher beam width can result in more diverse captions but increases computational complexity.
 
+<br>
 
-### Screenshot
+## Screenshot <br>
 ![ww](https://github.com/enesylmzx42/AspNet-Core-MVC-Blog/assets/117593621/79e9f664-b066-408a-ba1c-a1768afb91ab)
-![aa](https://github.com/enesylmzx42/AspNet-Core-MVC-Blog/assets/117593621/797237cc-9638-4c7e-a529-a2fe1b84b70e)
+
 
