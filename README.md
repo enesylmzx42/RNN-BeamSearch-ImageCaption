@@ -2,6 +2,20 @@
 
 Image captioning is a fascinating process where a machine-learning model crafts textual descriptions or captions for images. It merges computer vision techniques to grasp image content with natural language processing (NLP) techniques for generating coherent and descriptive text.
 
+## Used Concepts and Technologies
+
+- NLP
+- RNN
+- LSTM - GRU
+- Beam Search Algorithm
+- Greedy Decoder
+- Tensorflow
+- Keras
+- EfficientNetV2B3
+- Streamlit
+
+
+
 ## Dataset 
 
 The Flickr8k dataset comprises 8,000 images, each paired with five diverse captions offering clear descriptions of prominent entities and events. These images were meticulously selected from six different Flickr groups, deliberately avoiding well-known people or locations. Instead, they depict a wide array of scenes and situations.
@@ -23,7 +37,6 @@ Beam search is a search algorithm that concurrently explores multiple possible s
 
 <br>
 
-## Screenshot <br>
-![ww](https://github.com/enesylmzx42/AspNet-Core-MVC-Blog/assets/117593621/79e9f664-b066-408a-ba1c-a1768afb91ab)
+
 
 
