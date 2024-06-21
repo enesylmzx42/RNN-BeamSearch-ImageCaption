@@ -11,6 +11,7 @@ Image captioning is a fascinating process where a machine-learning model crafts 
 - Greedy Decoder
 - Tensorflow
 - Keras
+- EfficientNetV2B3
 - Streamlit
 
 
