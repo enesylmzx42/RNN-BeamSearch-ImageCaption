@@ -11,7 +11,7 @@ model:
 
 train:
   epochs: 40
-  steps_per_epoch: 150
+  steps_per_epoch: 200
   validation_steps: 30
   verbose: 1
   adapt_bias: false
@@ -37,3 +37,8 @@ train:
     save_weights_only: true
     save_freq_multiple: 25
     verbose: 1
+
+  generate_text:
+    allow: true
+    image_path: sample/19212715_20476497a3.jpg
+    freq: 5
