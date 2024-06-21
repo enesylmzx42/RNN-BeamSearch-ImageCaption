@@ -2,10 +2,10 @@ model:
   type: rnn
   img_features_shape: [1536]
   params:
-    embedding_dim: 256
+    embedding_dim: 512
     rnn_type: LSTM
-    rnn_layers: 1
-    rnn_units: 512
+    rnn_layers: 2
+    rnn_units: 1024
     dropout_rate: 0.3
     pooling: false
 
@@ -37,8 +37,3 @@ train:
     save_weights_only: true
     save_freq_multiple: 25
     verbose: 1
-
-  generate_text:
-    allow: true
-    image_path: sample/101654506_8eb26cfb60.jpg
-    freq: 9
