@@ -38,9 +38,15 @@ Beam search is a search algorithm that concurrently explores multiple possible s
 <br>
 <br>
 
-## Screenshot
+## Screenshots
 
-![aa](https://github.com/enesylmzx42/CNN-LetterRecognition-JS-Flask/assets/117593621/8e62d908-6860-4b71-9df0-42105e543b5a)
+![fd](https://github.com/enesylmzx42/RNN-ImageCaption/assets/117593621/e983f3cf-f888-4468-942a-833bc215a61c)
+
+<br>
+
+![e](https://github.com/enesylmzx42/RNN-ImageCaption/assets/117593621/9bd832ed-e32b-4fa6-8584-a2bb1dc3ac26)
+
+
 
 
 
