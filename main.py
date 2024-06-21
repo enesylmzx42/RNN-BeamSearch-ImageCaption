@@ -7,11 +7,11 @@ import gdown
 from data_utils.preprocessor import Preprocessor
 from model_utils.feature_extractor import FeatureExtractor
 from model_utils.tokenizer import Tokenizer
-from RNN_model.rnn_model import RNNImageCaptioner
+from RNN.rnn_model import RNNImageCaptioner
 from keras.applications import EfficientNetV2B3
 from model_utils.utils import load_image
 
-WEIGHTS_PATH = "./weights/model4-ep.28-loss.2.34.weights.h5"
+WEIGHTS_PATH = "./weights/model7.weights.h5"
 
 
 def app_render():
@@ -27,7 +27,7 @@ def app_render():
         temperature = st.slider("Temperature", min_value=0.0, max_value=1.0, value=0.0)
     elif method == "Beam Search":
         kbeams = st.number_input(
-            "Number of Beams (1 to 10) ", min_value=1, max_value=10, value=5
+            "Number of Beams (1 to 10) ", min_value=1, max_value=10, value=1
         )
 
     if uploaded_image is not None:

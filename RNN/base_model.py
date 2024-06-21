@@ -19,10 +19,10 @@ class BaseImageCaptioner(keras.Model):
             vocabulary=tokenizer.get_vocabulary(), mask_token="", invert=True
         )
 
-    def greedy_gen(self, images, max_len=30, temperature=1):
+    def greedy_gen(self, images, max_len=30, temperature=0):
         raise NotImplementedError()
 
-    def beam_search_gen(self, images, K_beam=3, max_len=30):
+    def beam_search_gen(self, images, K_beam=1, max_len=30):
         raise NotImplementedError()
 
     def _decode_tokens(self, tokens):
