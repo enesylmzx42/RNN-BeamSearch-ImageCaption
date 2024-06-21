@@ -37,10 +37,4 @@ Beam search is a search algorithm that concurrently explores multiple possible s
 
 <br>
 
-### Screenshot
-
-![aa](https://github.com/enesylmzx42/RNN-ImageCaption/assets/117593621/11126b19-5e9e-4e34-8b39-42acbe73d514)
-
-
-
 
