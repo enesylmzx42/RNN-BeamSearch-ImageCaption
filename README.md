@@ -15,10 +15,10 @@ The Flickr8k dataset comprises 8,000 images, each paired with five diverse capti
 ## Inference Methods
 There are two algorithms supported for caption generation:
 
-#### Greedy Decoding with Temperature Adjustment
+### Greedy Decoding with Temperature Adjustment
 This approach involves the model greedily selecting the most probable word at each time step, with the softmax output scaled by a temperature parameter. Adjusting this temperature allows for controlling the randomness of word selection during generation. Lower temperatures (e.g., 0.1) produce more focused and deterministic text, while higher temperatures (e.g., 1.0) yield more random and diverse outputs.
 
-#### Beam Search with Beam Width Specification
+### Beam Search with Beam Width Specification
 Beam search is a search algorithm that concurrently explores multiple possible sequences. The beam width parameter determines the number of sequences the model considers at each step. A higher beam width can result in more diverse captions but increases computational complexity.
 
 <br>
