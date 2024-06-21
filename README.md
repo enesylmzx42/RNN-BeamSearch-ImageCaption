@@ -36,5 +36,11 @@ This approach involves the model greedily selecting the most probable word at ea
 Beam search is a search algorithm that concurrently explores multiple possible sequences. The beam width parameter determines the number of sequences the model considers at each step. A higher beam width can result in more diverse captions but increases computational complexity.
 
 <br>
+<br>
+
+## GIF
+
+![aa](https://github.com/enesylmzx42/CNN-LetterRecognition-JS-Flask/assets/117593621/8e62d908-6860-4b71-9df0-42105e543b5a)
+
 
 
