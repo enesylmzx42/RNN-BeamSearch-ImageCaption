@@ -11,7 +11,7 @@ import keras
 from keras.applications import EfficientNetV2B3
 
 from data_utils.preprocessor import Preprocessor
-from RNN_model.rnn_model import RNNImageCaptioner
+from RNN.rnn_model import RNNImageCaptioner
 from model_utils.callbacks import GenerateText
 from model_utils.feature_extractor import FeatureExtractor
 from model_utils.losses import masked_loss
