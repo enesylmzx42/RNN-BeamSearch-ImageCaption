@@ -36,7 +36,6 @@ Beam search is a search algorithm that concurrently explores multiple possible s
 
 <br>
 
-## Screenshot <br>
-![ww](https://github.com/enesylmzx42/AspNet-Core-MVC-Blog/assets/117593621/79e9f664-b066-408a-ba1c-a1768afb91ab)
+
 
 
