@@ -4,7 +4,6 @@ import numpy as np
 import keras
 from tqdm import tqdm
 
-
 class BaseImageCaptioner(keras.Model):
     def __init__(self, tokenizer, feature_extractor, pooling=None, **kwargs):
         super().__init__(**kwargs)
